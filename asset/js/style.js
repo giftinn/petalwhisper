@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('So,').split('');
+        const titles = ('I have a big crush on you').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
            
             const subtitle = document.createElement('p');
-            subtitle.innerText = "can I be yours in the quiet moments and the loud ones too?";
+            subtitle.innerText = "So, can I be yours in the quiet moments and the loud ones too?";
             subtitle.style.fontSize = '20px'; 
             subtitle.style.marginTop = '2px'; 
             subtitle.style.color = '#fff'; 
